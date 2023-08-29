@@ -40,7 +40,6 @@ export class Form extends Component {
               className='form-control'
               type='text'
               name='name'
-              required
               onChange={this.onChange}
               value={name}
             />
@@ -51,7 +50,6 @@ export class Form extends Component {
               className='form-control'
               type='email'
               name='email'
-              required
               onChange={this.onChange}
               value={email}
             />
@@ -62,7 +60,6 @@ export class Form extends Component {
               className='form-control'
               type='text'
               name='message'
-              required
               onChange={this.onChange}
               value={message}
             />
